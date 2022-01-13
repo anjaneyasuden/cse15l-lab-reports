@@ -54,4 +54,9 @@
 ## Trying Some Commands 
 *Now that you have successfully logged into the server we can try out some commands**
 
-**If you run the command *cd* it changes the directory your currently in allows you to enter a certain directory**
+**If you run the command *cd* it changes the directory your currently in allows you to enter another directory**
+
+**If you run the command *ls -l* it esentially lists all the people that have access to your files and the size of the file and the last modified date**
+![ls-l](https://user-images.githubusercontent.com/97692945/149409849-e3c88022-2ba2-46e6-bc39-d635ec5310f0.png)
+
+
