@@ -45,3 +45,9 @@
 
 **After typing that into your terminal your terminal will prompt you to type in your password but, dont worry if you cannot see letters being typed on the screen it is being typed it is just an added saftey measure** 
 ![VSCodeTerminal](https://user-images.githubusercontent.com/97692945/149408428-9acd3450-b2f2-4c71-8e17-cdefc6cf7b40.png)
+
+**If everything was completed correctly you page should look like this**
+![VSCodeTerminal](https://user-images.githubusercontent.com/97692945/149408679-7fa52e74-9ea9-45ac-b22b-9603ac62b97c.png)
+**And Well Done you have successfully logged into the server!**
+
+
