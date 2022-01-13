@@ -59,8 +59,39 @@
 **If you run the command *ls -l* it esentially lists all the people that have access to your files and the size of the file and the last modified date**
 ![ls-l](https://user-images.githubusercontent.com/97692945/149409849-e3c88022-2ba2-46e6-bc39-d635ec5310f0.png)
 
-**Using the ls command you can also eneter someone elses directory who is on the server using:** \
+**Using the ls command you can also enter someone elses directory who is on the server using:** 
 ```
 # ls /home/linux/ieng6/cs15lwi22/cs15lwi22abc 
 ```
 **Where abc is someone elses username***
+
+
+## Moving Files with scp
+*We will now talk about scp or secure copy protocol. this will enable us to copy files form our computer to the server*
+
+**Start of by creating a new folder in your VSCode** \
+**On the top of your VSCode click** \
+file->Open Folder->New Folder \
+And name ir CSE15L
+**From here make a new file**
+![Creatingafile](https://user-images.githubusercontent.com/97692945/149411830-a22b48fc-ba8f-4391-b94c-8d200d50ace3.jpg)
+**Name this file HelloWorld.java**
+**Then paste this code into the *HelloWorld.java***
+```
+public class HelloWorld {
+    public static void main(String [] args){
+        System.out.println("Hello World!");
+    }
+}
+```
+**After you have created this HelloWorld.java file make sure to save it and run it with javac and java** \
+**Then in the same terminal directory run this command in-order to copy it onto the server, you will once again be prompted to eneter your password**
+```
+scp HelloWorld.java cs15lwi22zz@ieng6.ucsd.edu:~/
+```
+**After that log back into your account using `ssh` you should be able to see your file on the server by running *ls*, now you have your file on the server you can run javac and java in-order to run your code**
+![scp](https://user-images.githubusercontent.com/97692945/149413575-ac59cd32-7b59-40ac-8a49-45fc360aae48.png)
+
+
+## Setting an SSH Key
+*We will now learn how to setup SSH Keys in-order for us to allow simple and quick access to files on the server and on our client. It will make our lives a lot easier by eliminating the use of continuously typing out our password when copying files over or retrieving them*
