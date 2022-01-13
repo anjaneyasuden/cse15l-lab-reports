@@ -14,7 +14,7 @@
  *The page should look something like this*\
  ![VSCodeDownloadImage](https://user-images.githubusercontent.com/97692945/149403551-3d1e8695-8da0-44ec-82b5-188d1901c97e.png)
  
- *When finished make sure to open your application and the interface should look something like this* \
+ *When finished make sure to open your application and the interface should look something like this* 
  
  ![VSCodeInterface](https://user-images.githubusercontent.com/97692945/149404004-7b5c36d1-8394-47c4-8254-713639c91914.png)
  
