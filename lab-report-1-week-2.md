@@ -21,6 +21,6 @@
  
  ## Remotely Connecting
  *In this section we will talk about how to remotely connect the client, (your computer) to the host, (the server).* \
- **In the case of using a Windows Operating System download the following link and follow the steps**
+ **In the case of using a Windows Operating System download the following link and follow the steps** \
  [Install the OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
