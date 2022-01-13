@@ -51,3 +51,7 @@
 **And Well Done you have successfully logged into the server!**
 
 
+## Trying Some Commands 
+*Now that you have successfully logged into the server we can try out some commands**
+
+**If you run the command *cd* it changes the directory your currently in allows you to enter a certain directory**
