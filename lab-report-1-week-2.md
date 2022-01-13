@@ -30,7 +30,9 @@
  **This can be done through using the account look up tool provided below** \
  [UCSD Acount lookup tool](https://sdacs.ucsd.edu/~icc/index.php) \
  **Here you will be greeted with a page that looks something like this:** \
- ![AccountLookUp](https://user-images.githubusercontent.com/97692945/149406491-da45605c-8537-4249-9e58-20b8dcf336bc.png) /
+ ![AccountLookUp](https://user-images.githubusercontent.com/97692945/149406491-da45605c-8537-4249-9e58-20b8dcf336bc.png) 
  **Make sure to fill in your UCSD username & your UCSD PID and then follow the steps of the password reset for your cs15l account that is usally in the form of:** \
- **cs15lwiabc** \
+ **cs15lwiabc where abc is your unique identification** 
+ 
+ **After you have waited 15-20 minutes for your password to reset, open back your VSCode and open a new Terminal which can be found from the following pictures below**
 
