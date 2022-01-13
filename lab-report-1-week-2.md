@@ -34,5 +34,6 @@
  **Make sure to fill in your UCSD username & your UCSD PID and then follow the steps of the password reset for your cs15l account that is usally in the form of:** \
  **cs15lwiabc where abc is your unique identification** 
  
- **After you have waited 15-20 minutes for your password to reset, open back your VSCode and open a new Terminal which can be found from the following pictures below**
+ **After you have waited 15-20 minutes for your password to reset, open back your VSCode and open a new Terminal which can be shown how to be done from the following pictures below**
+![VSCodeTerminal](https://user-images.githubusercontent.com/97692945/149407233-4ff76a3b-beb7-47dc-845e-4583ddd7de92.png)
 
