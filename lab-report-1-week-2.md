@@ -7,4 +7,6 @@
  Setting an SSH Key,\
  Optimizing Remote Running** 
  
- ## Setting up VSCode
+ ## Setting up VSCode 
+ *In order to set up VSCode, make sure to go to the VSCode website and download it for your Operating System*
+ [VSCode](https://code.visualstudio.com/)
