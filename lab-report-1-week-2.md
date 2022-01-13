@@ -9,7 +9,7 @@
  
  ## Setting up VSCode 
  *In order to set up VSCode, make sure to go to the VSCode website and download it for your Operating System* \
- [VSCode](https://code.visualstudio.com/)\
+ [VSCode Download Link](https://code.visualstudio.com/)\
  *The page should look something like this*\
- ![VSCodeDownload](https://user-images.githubusercontent.com/97692945/149403551-3d1e8695-8da0-44ec-82b5-188d1901c97e.png)
+ ![VSCodeDownloadImage](https://user-images.githubusercontent.com/97692945/149403551-3d1e8695-8da0-44ec-82b5-188d1901c97e.png)
 
