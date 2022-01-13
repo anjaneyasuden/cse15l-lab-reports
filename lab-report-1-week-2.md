@@ -18,4 +18,7 @@
  
  ![VSCodeInterface](https://user-images.githubusercontent.com/97692945/149404004-7b5c36d1-8394-47c4-8254-713639c91914.png)
  
+ 
+ ## Remotely Connecting
+ *In this section we will talk about how to remotely connect the client, (your computer) to the host, (the server).
 
