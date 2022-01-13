@@ -22,8 +22,9 @@
  ## Remotely Connecting
  *In this section we will talk about how to remotely connect the client, (your computer) to the host, (the server).* \
  **In the case of using a Windows Operating System download the following link and follow the steps** \
- [Install the OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) \
- *After doing this and following the steps, we are going to look up our CS15L account:** \
+ [Install the OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) 
+ 
+ *After doing this and following the steps, we are going to look up our CS15L account:* \
  *This can be done through using the account look up tool provided below* \
  [UCSD Acount lookup tool](https://sdacs.ucsd.edu/~icc/index.php)
 
