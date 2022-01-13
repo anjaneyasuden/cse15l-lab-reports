@@ -2,6 +2,8 @@ Hello, world!
 
 *This text is in Italic*
 
+this is the index on VSCode
+
 **This text is in bold**
 
 # This text is a header
