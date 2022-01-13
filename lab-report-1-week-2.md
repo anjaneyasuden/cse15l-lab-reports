@@ -7,6 +7,7 @@
  Setting an SSH Key,\
  Optimizing Remote Running** 
  
+ 
  ## Setting up VSCode 
  *In order to set up VSCode, make sure to go to the VSCode website and download it for your Operating System* \
  [VSCode Download Link](https://code.visualstudio.com/)\
@@ -14,6 +15,7 @@
  ![VSCodeDownloadImage](https://user-images.githubusercontent.com/97692945/149403551-3d1e8695-8da0-44ec-82b5-188d1901c97e.png)
  
  *When finished make sure to open your application and the interface should look something like this* \
- ![VSCodeInterface](https://user-images.githubusercontent.com/97692945/149404004-7b5c36d1-8394-47c4-8254-713639c91914.png))
+ 
+ ![VSCodeInterface](https://user-images.githubusercontent.com/97692945/149404004-7b5c36d1-8394-47c4-8254-713639c91914.png)
  
 
