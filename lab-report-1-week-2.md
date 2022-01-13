@@ -37,5 +37,7 @@
  **After you have waited 15-20 minutes for your password to reset, open back your VSCode and open a new Terminal which can be shown how to be done from the following pictures below**
 ![VSCodeTerminal](https://user-images.githubusercontent.com/97692945/149407233-4ff76a3b-beb7-47dc-845e-4583ddd7de92.png)
 ![VSCodeTerminal](https://user-images.githubusercontent.com/97692945/149407687-a164d5ab-3504-4aef-94c3-a2af105163f3.jpg)
-
+**And then type in this command**
+> ssh cs15lwi22abc@ieng6.ucsd.edu
+*where abc is your unique account name*
 
