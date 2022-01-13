@@ -39,7 +39,9 @@
 ![VSCodeTerminal](https://user-images.githubusercontent.com/97692945/149407687-a164d5ab-3504-4aef-94c3-a2af105163f3.jpg)
 **And then type in this command**
 ```
-# ssh cs15lwi22abc@ieng6.ucsd.edu \
+# ssh cs15lwi22abc@ieng6.ucsd.edu
 ```
 *where abc is your unique account name*
+
+**After typing that into your terminal your terminal will prompt you to type in your password but, dont worry if you cannot see letters being typed on the screen it is being typed it is just an added saftey measure** 
 
