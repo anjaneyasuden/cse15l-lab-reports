@@ -59,4 +59,5 @@
 **If you run the command *ls -l* it esentially lists all the people that have access to your files and the size of the file and the last modified date**
 ![ls-l](https://user-images.githubusercontent.com/97692945/149409849-e3c88022-2ba2-46e6-bc39-d635ec5310f0.png)
 
-
+**Using the ls command you can also eneter someone elses directory who is on the server using:** \
+*ls /home/linux/ieng6/cs15lwi22/cs15lwi22abc **Where abc is someone elses username***
