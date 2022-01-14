@@ -95,3 +95,7 @@ scp HelloWorld.java cs15lwi22zz@ieng6.ucsd.edu:~/
 
 ## Setting an SSH Key
 *We will now learn how to setup SSH Keys in-order for us to allow simple and quick access to files on the server and on our client. It will make our lives a lot easier by eliminating the use of continuously typing out our password when copying files over or retrieving them*
+
+**Using the command `ssh-keygen` we can generate a private and public key on our client that we can use to easily connect to the server** \
+**If we are on Windows we use the command `ssh-add C:\Users\<username>/.ssh/id.rsa` in order to connect us to the server**
+![ssh-keygeb](https://user-images.githubusercontent.com/97692945/149467276-fa067998-58aa-40d7-87e1-efd393081b45.png)
