@@ -99,3 +99,8 @@ scp HelloWorld.java cs15lwi22zz@ieng6.ucsd.edu:~/
 **Using the command `ssh-keygen` we can generate a private and public key on our client that we can use to easily connect to the server** \
 **If we are on Windows we use the command `ssh-add C:\Users\<username>/.ssh/id.rsa` in order to connect us to the server**
 ![ssh-keygeb](https://user-images.githubusercontent.com/97692945/149467276-fa067998-58aa-40d7-87e1-efd393081b45.png)
+**Now we can look into the server by logging on again and running the command `ls -a` to list the files on our directory if you can see this file here you proceed to the next step**
+
+**If you are on Windows you have to now proceed to complete these steps in order to get your public key on the server, circled in the red pen make sure to run these commands on your POWERSHELL Terminal *(as admininstrator)*, after that in the blue pen make sure to add your `ssh -add` your files into the ssh agent, after that in the green what we are doing is: we are running `scp` in order for us to copy our public key C:\... to the servers authorized keys**
+![ssh-keygeb](https://user-images.githubusercontent.com/97692945/149580301-4692a807-cf6b-4c7a-bc07-6bfc2d4d8c55.png)
+**After you are done with this you can easily log into the server without the need of a password!**
