@@ -13,7 +13,7 @@
  
  [VSCode Download Link](https://code.visualstudio.com/)\
  **The page should look something like this**\
- ![VSCodeDownloadImage](https://user-images.githubusercontent.com/97692945/149403551-3d1e8695-8da0-44ec-82b5-188d1901c97e.png)
+ ![VSCodeDownloadImage](Screenshot (36).png)
  
  **When finished downloading make sure to open your application and the interface should look something like this** 
  
