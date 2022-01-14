@@ -111,5 +111,5 @@ scp HelloWorld.java cs15lwi22zz@ieng6.ucsd.edu:~/
 **Here you can see us making an edit to a local file in our own directory**
 ![copying](https://user-images.githubusercontent.com/97692945/149581388-cd3a030e-ba80-4f3e-88d3-eb7661fb96f8.png)
 **After this in order to send it to our server in order for us to run it on there we use the command** \
-`scp `
+`scp HelloWorld.java cs15lwi22aff@ieng6.ucsd.edu:~/` **This will overide our file from the sever and then from there its simply a matter of logging in and running the javac and java commands to see our edits**
 
