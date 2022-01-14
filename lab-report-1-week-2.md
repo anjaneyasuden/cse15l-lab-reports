@@ -17,7 +17,7 @@
  
  **When finished downloading make sure to open your application and the interface should look something like this** 
  
- ![VSCodeInterface](https://user-images.githubusercontent.com/97692945/149404004-7b5c36d1-8394-47c4-8254-713639c91914.png)
+ ![VSCodeInterface](Screenshot (36).png)
  
  
 ## Remotely Connecting
