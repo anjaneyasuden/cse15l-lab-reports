@@ -102,5 +102,14 @@ scp HelloWorld.java cs15lwi22zz@ieng6.ucsd.edu:~/
 **Now we can look into the server by logging on again and running the command `ls -a` to list the files on our directory if you can see this file here you proceed to the next step**
 
 **If you are on Windows you have to now proceed to complete these steps in order to get your public key on the server, circled in the red pen make sure to run these commands on your POWERSHELL Terminal *(as admininstrator)*, after that in the blue pen make sure to add your `ssh -add` your files into the ssh agent, after that in the green what we are doing is: we are running `scp` in order for us to copy our public key C:\... to the servers authorized keys**
-![ssh-keygeb](https://user-images.githubusercontent.com/97692945/149580301-4692a807-cf6b-4c7a-bc07-6bfc2d4d8c55.png)
+![ssh-keygeb](https://user-images.githubusercontent.com/97692945/149580301-4692a807-cf6b-4c7a-bc07-6bfc2d4d8c55.png) \
 **After you are done with this you can easily log into the server without the need of a password!**
+
+
+## Optimizing Remote Running
+*In this section we will explain how to further optimize connecting to the server* \
+**Here you can see us making an edit to a local file in our own directory**
+![copying](https://user-images.githubusercontent.com/97692945/149581388-cd3a030e-ba80-4f3e-88d3-eb7661fb96f8.png)
+**After this in order to send it to our server in order for us to run it on there we use the command** \
+`scp `
+
