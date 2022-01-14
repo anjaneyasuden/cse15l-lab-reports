@@ -8,7 +8,7 @@
  Optimizing Remote Running** 
  
  
- ##Setting up VSCode 
+ ## Setting up VSCode /
  *In order to set up VSCode, make sure to go to the VSCode website and download it for your Operating System* 
  
  [VSCode Download Link](https://code.visualstudio.com/)\
@@ -20,7 +20,7 @@
  ![VSCodeInterface](https://user-images.githubusercontent.com/97692945/149404004-7b5c36d1-8394-47c4-8254-713639c91914.png)
  
  
- ##Remotely Connecting
+ ## Remotely Connecting /
  *In this section we will talk about how to remotely connect the client, (your computer) to the host, (the server).* 
  
  **In the case of using a Windows Operating System click the following link and follow the steps** \
