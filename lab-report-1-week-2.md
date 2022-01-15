@@ -17,7 +17,7 @@
  
  **When finished downloading make sure to open your application and the interface should look something like this** 
  
- ![VSCodeInterface](Screenshot (36).png)
+ ![Image](Screenshot%20(36).png)
  
  
 ## Remotely Connecting
@@ -30,13 +30,12 @@
  **This can be done through using the account look up tool provided below** \
  [UCSD Acount lookup tool](https://sdacs.ucsd.edu/~icc/index.php) \
  **Here you will be greeted with a page that looks something like this:** \
- ![AccountLookUp](https://user-images.githubusercontent.com/97692945/149406491-da45605c-8537-4249-9e58-20b8dcf336bc.png) 
+ ![AccountLookUp](Screenshot%20(38).png) 
  **Make sure to fill in your UCSD username & your UCSD PID and then follow the steps of the password reset for your cs15l account that is usally in the form of:** \
  **cs15lwiabc where abc is your unique identification** 
  
  **After you have waited 15-20 minutes for your password to reset, open back your VSCode and open a new Terminal which can be shown how to be done from the following pictures below**
-![VSCodeTerminal](https://user-images.githubusercontent.com/97692945/149407233-4ff76a3b-beb7-47dc-845e-4583ddd7de92.png)
-![VSCodeTerminal](https://user-images.githubusercontent.com/97692945/149407687-a164d5ab-3504-4aef-94c3-a2af105163f3.jpg)
+![VSCodeTerminal](Screenshot%20(39).png)
 **And then type in this command**
 ```
 # ssh cs15lwi22abc@ieng6.ucsd.edu
@@ -44,10 +43,9 @@
 *where abc is your unique account name*
 
 **After typing that into your terminal your terminal will prompt you to type in your password but, dont worry if you cannot see letters being typed on the screen it is being typed it is just an added saftey measure** 
-![VSCodeTerminal](https://user-images.githubusercontent.com/97692945/149408428-9acd3450-b2f2-4c71-8e17-cdefc6cf7b40.png)
-
+![ls-l](Screenshot%20(41).png)
 **If everything was completed correctly you page should look like this**
-![VSCodeTerminal](https://user-images.githubusercontent.com/97692945/149408679-7fa52e74-9ea9-45ac-b22b-9603ac62b97c.png)
+![VSCodeTerminal](Screenshot%20(42).png)
 **And Well Done you have successfully logged into the server!**
 
 
@@ -57,7 +55,7 @@
 **If you run the command *cd* it changes the directory your currently in allows you to enter another directory**
 
 **If you run the command *ls -l* it esentially lists all the people that have access to your files and the size of the file and the last modified date**
-![ls-l](https://user-images.githubusercontent.com/97692945/149409849-e3c88022-2ba2-46e6-bc39-d635ec5310f0.png)
+![ls-l](Screenshot%20(43).png)
 
 **Using the ls command you can also enter someone elses directory who is on the server using:** 
 ```
@@ -74,7 +72,7 @@
 file->Open Folder->New Folder \
 And name ir CSE15L
 **From here make a new file**
-![Creatingafile](https://user-images.githubusercontent.com/97692945/149411830-a22b48fc-ba8f-4391-b94c-8d200d50ace3.jpg)
+![Creatingafile](Screenshot%20(44).png)
 **Name this file HelloWorld.java**
 **Then paste this code into the *HelloWorld.java***
 ```
@@ -90,7 +88,7 @@ public class HelloWorld {
 scp HelloWorld.java cs15lwi22zz@ieng6.ucsd.edu:~/
 ```
 **After that log back into your account using `ssh` you should be able to see your file on the server by running *ls*, now you have your file on the server you can run javac and java in-order to run your code**
-![scp](https://user-images.githubusercontent.com/97692945/149413575-ac59cd32-7b59-40ac-8a49-45fc360aae48.png)
+![scp](Screenshot%20(46).png)
 
 
 ## Setting an SSH Key
@@ -98,18 +96,18 @@ scp HelloWorld.java cs15lwi22zz@ieng6.ucsd.edu:~/
 
 **Using the command `ssh-keygen` we can generate a private and public key on our client that we can use to easily connect to the server** \
 **If we are on Windows we use the command `ssh-add C:\Users\<username>/.ssh/id.rsa` in order to connect us to the server**
-![ssh-keygeb](https://user-images.githubusercontent.com/97692945/149467276-fa067998-58aa-40d7-87e1-efd393081b45.png)
+![ssh-keygeb](Screenshot%20(47).png)
 **Now we can look into the server by logging on again and running the command `ls -a` to list the files on our directory if you can see this file here you proceed to the next step**
 
 **If you are on Windows you have to now proceed to complete these steps in order to get your public key on the server, circled in the red pen make sure to run these commands on your POWERSHELL Terminal *(as admininstrator)*, after that in the blue pen make sure to add your `ssh -add` your files into the ssh agent, after that in the green what we are doing is: we are running `scp` in order for us to copy our public key C:\... to the servers authorized keys**
-![ssh-keygeb](https://user-images.githubusercontent.com/97692945/149580301-4692a807-cf6b-4c7a-bc07-6bfc2d4d8c55.png) \
+![ssh-keygeb](Screenshot%20(48).png) \
 **After you are done with this you can easily log into the server without the need of a password!**
 
 
 ## Optimizing Remote Running
 *In this section we will explain how to further optimize connecting to the server* \
 **Here you can see us making an edit to a local file in our own directory**
-![copying](https://user-images.githubusercontent.com/97692945/149581388-cd3a030e-ba80-4f3e-88d3-eb7661fb96f8.png)
+![copying](Screenshot%20(50).png)
 **After this in order to send it to our server in order for us to run it on there we use the command** \
 `scp HelloWorld.java cs15lwi22aff@ieng6.ucsd.edu:~/` **This will overide our file from the sever and then from there its simply a matter of logging in and running the javac and java commands to see our edits**
 
