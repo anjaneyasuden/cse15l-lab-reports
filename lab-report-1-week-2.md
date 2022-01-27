@@ -54,8 +54,8 @@
 
 **If you run the command *cd* it changes the directory your currently in allows you to enter another directory**
 
-**If you run the command *ls -l* it esentially lists all the people that have access to your files and the size of the file and the last modified date**
-![ls-l](Screenshot%20(56).png)
+**If you run the command *ls -l* it esentially lists all the people that have access to your files and the size of the file and the last modified date** \
+![ls-l](Screenshot%20(56).png) \
 *From left to right it gives you a lot of information about the file*
 
 **Using the ls command you can also enter someone elses directory who is on the server using:** 
