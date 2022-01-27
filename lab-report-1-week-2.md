@@ -55,13 +55,16 @@
 **If you run the command *cd* it changes the directory your currently in allows you to enter another directory**
 
 **If you run the command *ls -l* it esentially lists all the people that have access to your files and the size of the file and the last modified date**
-![ls-l](Screenshot%20(43).png)
+![ls-l](Screenshot%20(56).png)
+*From left to right it gives you a lot of information about the file*
 
 **Using the ls command you can also enter someone elses directory who is on the server using:** 
 ```
 # ls /home/linux/ieng6/cs15lwi22/cs15lwi22abc 
 ```
-**Where abc is someone elses username***
+**Where abc is someone elses username** \
+**Using the command cd is known to be as changing the directory this will cause you to place yourself in another folder esentially** \
+**you can also run the command exit or Crtl-D to logout of your session as a subsitute to closing your terminal**
 
 
 ## Moving Files with scp
@@ -106,8 +109,16 @@ scp HelloWorld.java cs15lwi22zz@ieng6.ucsd.edu:~/
 
 ## Optimizing Remote Running
 *In this section we will explain how to further optimize connecting to the server* \
-**Here you can see us making an edit to a local file in our own directory**
-![copying](Screenshot%20(50).png)
-**After this in order to send it to our server in order for us to run it on there we use the command** \
-`scp HelloWorld.java cs15lwi22aff@ieng6.ucsd.edu:~/` **This will overide our file from the sever and then from there its simply a matter of logging in and running the javac and java commands to see our edits**
+**Here you can see me creating a remote server connection once that connection is established we can complete the transfer of programs in strokes** \
+![copying](ConnectingR1.png) \
+![copying1](Screenshot%20(52).png) \
+![copying2](Screenshot%20(53).png) 
+
+**After this we want to type in a command to allow us to connect to the host this can be shown by typing in your ssh login into the picture below** 
+![copying2](Screenshot%20(54).png) 
+
+**Now we have done this it is simply as easy as copying from your file to the remote desktop**
+
+![copying2](Screenshot%20(55).png)
+**This is achived in 3 key strokes**
 
